@@ -1,0 +1,76 @@
+.upload-container{
+    padding: 25px;
+    background: rgb(219, 219, 219);
+    position: relative;
+    height: 100vh;
+}
+
+fieldset{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 50px;
+    height: inherit;
+    position: relative;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Papyrus'
+}
+
+form{
+    height: 450px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.left{
+    width: 10%;
+}
+
+.left label[for=title]{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.right{
+    width: 85%;
+}
+
+input[name=title]{
+    font-size: 0.9em;
+    padding: 5px;
+    width: 100%;
+};
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.error-tag{
+    color: red;
+    font-size: 0.7em;
+    margin-top: 5px;
+    margin-left: 11%;
+}
+
+textarea[name=content]{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+input[type=submit]{
+    position: absolute;
+    right: 10%;
+    margin-top: 10px;
+    cursor: pointer;
+}

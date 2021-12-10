@@ -1,0 +1,174 @@
+.profile-container{
+    padding: 25px;
+    background: rgb(219, 219, 219);
+    min-height: 670px;
+    position: relative;
+}
+
+.profile{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+.edit-profile{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px 40px;
+}
+
+.edit-profile:hover, input[type=file]:hover, input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.edit-panel{
+    display: none;
+}
+
+#profile-edit-form{
+    margin: auto;
+    margin-top: 40px;
+    width: 65%;
+    height: 350px;
+    position: relative;
+}
+
+fieldset{
+    padding: 25px;
+}
+
+.row{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.left{
+    width: 20%;
+}
+
+.left label{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.right{
+    width: 80%;
+}
+
+.right input{
+    width: 50%;
+}
+
+.right input[name=email]{
+    width: 70%;
+}
+
+label[for=bio]{
+    position: relative;
+    top: -80px;
+}
+
+textarea{
+    width: 50%;
+    height: 100px;
+}
+
+input, textarea{
+    font-size: 0.9em;
+}
+
+input[type=submit]{
+    float: right;
+    margin-top: 0;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.posts-panel{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.posts-panel>h1{
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 3.0em;
+    margin-bottom: 80px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.error-tag{
+    color: red;
+    font-size: 0.7em;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+.post-container{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 35px 0px;
+    width: 100%;
+}
+
+.post-container:hover{
+    background: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.post-header{
+    position: relative;
+    height: 50px;
+}
+
+.post-header .post-description{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    margin-left: 60px;
+}
+
+.post-profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.post-date{
+    margin-left: auto;
+}
+
+.post-body{
+    width: 100%;
+    padding: 0 20px;
+}

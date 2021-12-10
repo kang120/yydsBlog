@@ -1,0 +1,80 @@
+#login-form{
+    margin-top: 30px;
+    width: 45%;
+}
+
+fieldset{
+    padding: 25px;
+}
+
+.row{
+    position: relative;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+}
+
+.left label{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.right{
+    width: 80%;
+    margin-left: 15px;
+}
+
+.right input{
+    width: 55%;
+    height: 30px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 2px solid rgb(138, 196, 235);
+    border-radius: 4px;
+    background: rgb(107, 198, 237);
+    color: black;
+    height: 30px;
+}
+
+input[type=submit]:hover{
+    color: white;
+}
+
+input[name="email"]{
+    width: 65%;
+}
+
+span{
+    font-size: 0.8em;
+}
+
+a.login{
+    font-size: 0.8em;
+    color: rgb(54, 122, 224);
+    margin-left: 10px;
+}
+
+a.login:hover, a.forgot-password:hover{
+    text-decoration: underline;
+}
+
+a.forgot-password{
+    font-size: 0.8em;
+    color: rgb(54, 122, 224);
+}
+
+.error-msg{
+    color: red;
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

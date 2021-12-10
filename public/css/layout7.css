@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(95, 135, 199);
+    color: white;
+    padding: 15px 0;
+}
+
+.nav-bar{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    display: flex;
+}
+
+.logo{
+    font-size: 1.7em;
+}
+
+.nav{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.nav-right{
+    position: relative;
+    margin-left: auto;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.profile-btn{
+    border: 1px solid rgb(240, 240, 240);
+    padding: 5px;
+    font-size: 0.8em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(222, 222, 222);
+}
+
+.main{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section-title{
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.flash{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.success-flash{
+    background: rgb(191, 255, 210);
+    border: 2px solid rgb(94, 230, 119);
+}
+
+.error-flash{
+    background: rgb(235, 204, 204);
+    border: 2px solid rgb(230, 117, 94);
+}
